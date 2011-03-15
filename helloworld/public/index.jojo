@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>hello world jojo</title>
+    
+    <!-- framework... -->
+    <clientscript type="text/javascript" src="/jojojs-client/lib/jquery-1.4.2.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/lib/jquery.tmpl.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/core.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/lang.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/event.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/fsm.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/widget.js"></clientscript>
+    <clientscript type="text/javascript" src="/socket.io.client/socket.io.js"></clientscript>
+    <clientscript type="text/javascript" src="/jojojs-client/socket.js"></clientscript>
+    
+    <!-- 3rd party... -->
+    <clientscript type="text/javascript" src="/date.js"></clientscript>
+    
+    <!-- styles... -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/base/jquery-ui.css" type="text/css" media="all" />
+</head>
+<body>
+	<widget path="widgets/engine/" id="blogengine">
+		<options></options>
+	</widget>
+</body>
+</html>
