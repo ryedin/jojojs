@@ -11,7 +11,7 @@ jojo.init({
     jojoRoot: "../lib/",
     appRoot: __dirname,
     enableLogging: true,
-    logFilePath: "test.log",
+    logFilePath: "blog.log",
     middleware: [
         
     ],
