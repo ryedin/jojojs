@@ -7,12 +7,9 @@ jojo.ns("hellojojo");
 		prototype : {
 			initialize : function($super, options) {
 				$super(options);
-		        //testing...
-       			this.server_doSomething([123, 456], function(result) {
-//        			debugger;
-        		});
 			},
 			onReady : function(args) {
+
 				var me = this;
 
 				me.fsm = new jojo.fsm.finiteStateMachine({
@@ -24,6 +21,12 @@ jojo.ns("hellojojo");
 						}
 					}
 				}); // end me.fsm		
+		        	//testing...
+		        	setTimeout( function(e) {
+       					me.server_doSomething([123, 456], function(result) {
+						$('#msgrsp')[0].innerText = result.result.msg;
+	        			});
+				},3000);
 			}
 		}
 	});
