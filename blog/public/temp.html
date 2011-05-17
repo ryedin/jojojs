@@ -1,0 +1,274 @@
+
+
+
+<html>
+
+<head>
+
+    <title>Index.feather.html</title>
+
+    
+
+    <script type="text/javascript" src="/feather-client/lib/underscore-min.js"></script><script type="text/javascript" src="/feather-client/lib/json2.js"></script><script type="text/javascript" src="/feather-client/lib/jquery-1.6.js"></script><script type="text/javascript" src="/feather-client/lib/jquery.tmpl.js"></script><script type="text/javascript" src="/feather-client/lib/jquery.cookie.js"></script><script type="text/javascript" src="/feather-client/core.js"></script><script type="text/javascript" src="/feather-client/lang.js"></script><script type="text/javascript" src="/feather-client/event.js"></script><script type="text/javascript" src="/feather-client/fsm.js"></script><script type="text/javascript" src="/feather-client/util.js"></script><script type="text/javascript" src="/feather-client/widget.js"></script><script type="text/javascript" src="/socket.io.client/socket.io.js"></script><script type="text/javascript" src="/feather-client/socket.js"></script><script type="text/javascript" src="/feather-client/sha512.js"></script><script type="text/javascript" src="/feather-client/auth-client.js"></script><script type="text/javascript" src="/feather-client/lib/jquery.datalink.js"></script><script type="text/javascript" src="/feather-client/lib/jqueryUI-1.8.12/js/jquery-ui.js"></script><script type="text/javascript" src="/feather-client/ui.js"></script><link rel="stylesheet" type="text/css" href="/feather-client/lib/jqueryUI-1.8.12/css/black-tie/jquery-ui-1.8.12.custom.css"><link rel="stylesheet" type="text/css" href="/widgets/engine/engine.css"><link rel="stylesheet" type="text/css" href="/widgets/header/header.css"><link rel="stylesheet" type="text/css" href="/widgets/toolbar/toolbar.css"><link rel="stylesheet" type="text/css" href="/widgets/latestposts/latestposts.css"><link rel="stylesheet" type="text/css" href="/widgets/signin/signin.css"><link rel="stylesheet" type="text/css" href="/widgets/search/search.css"><link rel="stylesheet" type="text/css" href="/widgets/exportdb/exportdb.css"><link rel="stylesheet" type="text/css" href="/widgets/importdb/importdb.css"><link rel="stylesheet" type="text/css" href="/widgets/chat/chat.css"><script type="text/javascript" src="/widgets/engine/engine.client.js"></script><script type="text/javascript" src="/widgets/header/header.client.js"></script><script type="text/javascript" src="/widgets/toolbar/toolbar.client.js"></script><script type="text/javascript" src="/widgets/latestposts/latestposts.client.js"></script><script type="text/javascript" src="/widgets/signin/signin.client.js"></script><script type="text/javascript" src="/widgets/search/search.client.js"></script><script type="text/javascript" src="/widgets/exportdb/exportdb.client.js"></script><script type="text/javascript" src="/widgets/importdb/importdb.client.js"></script><script type="text/javascript" src="/widgets/chat/chat.client.js"></script>
+
+    
+
+    <!-- 3rd party... -->
+
+    <script type="text/javascript" src="/date.js"></script>
+
+    
+
+    <!-- styles... -->
+
+    <link rel="stylesheet" href="blog.css" type="text/css">
+
+</head>
+
+<body>
+
+  <div id="blogengine_Container" class="blog_engine"><div id="blogengine_header_Container" class="blog_header feather_header"><h1><a href="/"><img src="images/feather.png" alt="Logo" style="border:none">The feather Blog</a></h1></div> <div class="content">   <div class="left-col">   <div id="blogengine_toolbar_Container" class="blog_toolbar"></div>     <div id="blogengine_latestposts_Container" class="blog_latestposts"> <!-- timestamp: 1305412298735 this timestamp is the static widget-level value --> <ul id="blogengine_latestposts_list">   <!-- When using the dynamic tag to invoke a function, a global static function is required.        The function must be in the form          foo = function(cb) {...}       where cb is a callback function that is called (with the 'error as first argument' pattern),        passing a result object as the 2nd argument that will then       be used in the template (via jQuery.tmpl)       see latestposts.server.js for the example usage (the blog.getPosts contrived example)   -->         <div>     <div>        <li class="blogentry">       <h3 postid="22ed5357180e07792d880130c0001d53">         <span id="22ed5357180e07792d880130c0001d53-summary">ff2</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Thu May 12 2011 11:52:02 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="22ed5357180e07792d880130c0001d53-post">ff2</p>     </li>        <li class="blogentry">       <h3 postid="22ed5357180e07792d880130c0000e25">         <span id="22ed5357180e07792d880130c0000e25-summary">ff1</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Thu May 12 2011 11:45:37 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="22ed5357180e07792d880130c0000e25-post">ff1</p>     </li>        <li class="blogentry">       <h3 postid="f6e524ffb13f9656fd9c1f9307000966">         <span id="f6e524ffb13f9656fd9c1f9307000966-summary">123456</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Mon May 09 2011 13:07:03 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="f6e524ffb13f9656fd9c1f9307000966-post">wefwefwefwefef</p>     </li>        <li class="blogentry">       <h3 postid="f6e524ffb13f9656fd9c1f930700090d">         <span id="f6e524ffb13f9656fd9c1f930700090d-summary">asdf 123456</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Mon May 09 2011 11:19:11 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="f6e524ffb13f9656fd9c1f930700090d-post">asdf 123</p>     </li>        <li class="blogentry">       <h3 postid="15f32a3b6a35475ae19c4d82b40019e0">         <span id="15f32a3b6a35475ae19c4d82b40019e0-summary">qwerty 123</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Mon May 09 2011 10:43:45 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="15f32a3b6a35475ae19c4d82b40019e0-post">qwerty</p>     </li>        <li class="blogentry">       <h3 postid="15f32a3b6a35475ae19c4d82b4000d88">         <span id="15f32a3b6a35475ae19c4d82b4000d88-summary">new 123123 </span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Fri May 06 2011 13:59:32 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="15f32a3b6a35475ae19c4d82b4000d88-post"> weweqwdwedwef</p>     </li>        <li class="blogentry">       <h3 postid="5dad5449f84a1541375efe7810000218">         <span id="5dad5449f84a1541375efe7810000218-summary">foo 2</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Fri May 06 2011 13:56:08 GMT-0500 (CDT)         </span>       </h3>       <p class="collapsed" id="5dad5449f84a1541375efe7810000218-post">foo wdfe dw wef wefwef  wef
+</p>     </li>        <li class="blogentry">       <h3 postid="c0238f029932e49a69b05ac93a001a17">         <span id="c0238f029932e49a69b05ac93a001a17-summary">Adding more entries</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Fri Mar 04 2011 15:00:00 GMT-0600 (CST)         </span>       </h3>       <p class="collapsed" id="c0238f029932e49a69b05ac93a001a17-post">Need to add six or more entries, so here&#39;s one more.</p>     </li>        <li class="blogentry">       <h3 postid="c0238f029932e49a69b05ac93a002367">         <span id="c0238f029932e49a69b05ac93a002367-summary">Getting Widgetized</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Fri Mar 04 2011 13:00:00 GMT-0600 (CST)         </span>       </h3>       <p class="collapsed" id="c0238f029932e49a69b05ac93a002367-post">This morning I worked on turning the JoJo Blog into a fully widget-ized jojojs app.</p>     </li>        <li class="blogentry">       <h3 postid="c0238f029932e49a69b05ac93a00312c">         <span id="c0238f029932e49a69b05ac93a00312c-summary">The JoJo Blog is Born</span> <!--(timestamp: 1305412307119) this timestamp value should change with each refresh -->         <span style="font-style:italic;font-size:75%;">           Posted on Thu Mar 03 2011 22:30:00 GMT-0600 (CST)         </span>       </h3>       <p class="collapsed" id="c0238f029932e49a69b05ac93a00312c-post">Today the JoJo Blog was born.  Long may it live.</p>     </li>    </div>   </div> </ul></div>   </div>   <div class="right-col">     <div id="blogengine_signin_Container" class="blog_signin">  <div id="blogengine_signin_signInPanel">   <div>            <div>   <div id="blogengine_signin_signinform" class="signinform">     <label for="username">Username</label>     <input id="blogengine_signin_username" type="text" name="username" size="10"><br>     <label for="password">Password</label>     <input id="blogengine_signin_password" type="password" name="password" size="10"><br>     <input type="button" id="blogengine_signin_signinBtn" value="Sign In">     <p id="blogengine_signin_message"></p>   </div> </div>        </div> </div></div>     <div id="blogengine_search_Container" class="blog_search">Search<input type="text" name="query" size="25"> <input type="button" name="action" value="Search"></div>         <div id="blogengine_exportdb_Container" class="blog_exportdb">Export the database: <button id="blogengine_exportdb_exportBtn">Go</button> <div id="blogengine_exportdb_export-message" class="message"></div></div>     <div id="blogengine_importdb_Container" class="blog_importdb">Import the database: (Overwrite <input type="checkbox" name="overwrite" id="blogengine_importdb_overwrite">) <button id="blogengine_importdb_importBtn">Go</button> <div id="blogengine_importdb_import-message" class="message"></div></div>     <div id="blogengine_chat_Container" class="blog_chat"><h4>Chatifier 2000</h4> <span>(open in 2 browser windows and witness the magic)</span> <div id="blogengine_chat_conversation" class="conversation"></div> <div class="chatboxContainer">   <input type="text" id="blogengine_chat_namebox" class="name grey" value="your name">   <input type="text" id="blogengine_chat_chatbox" class="grey" value="a snarky comment">   <input type="button" id="blogengine_chat_chatBtn" value="Send"> </div> </div>   </div> </div></div>
+
+  <div id="footer">
+
+    Footer (Copyright & Stuff)
+
+  </div>
+
+<script type="text/javascript">feather.stateMachine.once("loadingComplete", function() {
+ feather.appOptions = {"socketPort":8081,"sessionCookie":"featherblog.sid"};
+});
+feather.stateMachine.onceState("ready", function(){
+(function() {
+blog.engine.prototype.server_doSomething = function(params, callback) {
+feather.socket.send({
+type: "rpc",
+data: {
+widgetName: "blog.engine",
+widgetPath: "widgets/engine/",
+widgetId: this.id,
+methodName: "doSomething",
+params: (typeof params !== "function") ? params : []
+},
+callback: (typeof params === "function") ? params : callback
+});
+};
+ 
+ 
+var widget = new blog.engine({
+id: "blogengine",
+myid: "blogengine",
+parent: null
+});
+ 
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+(function() {
+ 
+var widget = new blog.header({
+id: "blogengine_header",
+myid: "header",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.fire("ready");
+})();
+ 
+(function() {
+ 
+var widget = new blog.toolbar({
+id: "blogengine_toolbar",
+myid: "toolbar",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.fire("ready");
+})();
+ 
+(function() {
+blog.latestposts.prototype.server_getPosts = function(params, callback) {
+feather.socket.send({
+type: "rpc",
+data: {
+widgetName: "blog.latestposts",
+widgetPath: "widgets/latestposts/",
+widgetId: this.id,
+methodName: "getPosts",
+params: (typeof params !== "function") ? params : []
+},
+callback: (typeof params === "function") ? params : callback
+});
+};
+ 
+ 
+var widget = new blog.latestposts({
+id: "blogengine_latestposts",
+myid: "latestposts",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.templates = widget.templates || {};
+widget.templates.posts = {"id":"posts","tmpl":"<div>   {{each(i, item) result.posts}}     <li class=\"blogentry\">       <h3 postid=\"${id}\">         <span id=\"${id}-summary\">${summary}</span> <!--(timestamp: ${timestamp}) this timestamp value should change with each refresh -->         <span style=\"font-style:italic;font-size:75%;\">           Posted on ${pubDate}         </span>       </h3>       <p class=\"collapsed\" id=\"${id}-post\">${post}</p>     </li>   {{/each}} </div>"}.tmpl;
+widget.fire("ready");
+})();
+ 
+(function() {
+blog.signin.prototype.server_verifySignin = function(params, callback) {
+feather.socket.send({
+type: "rpc",
+data: {
+widgetName: "blog.signin",
+widgetPath: "widgets/signin/",
+widgetId: this.id,
+methodName: "verifySignin",
+params: (typeof params !== "function") ? params : []
+},
+callback: (typeof params === "function") ? params : callback
+});
+};
+ 
+ 
+var widget = new blog.signin({
+id: "blogengine_signin",
+myid: "signin",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.templates = widget.templates || {};
+widget.templates.signedIn = {"id":"signedIn","tmpl":"<div>   <div id=\"blogengine_signin_signedin\" class=\"welcome\">     Welcome {{if request}} <!-- for the server-side -->               ${request.session.user.username}.             {{else}} <!-- the else case handles the client side -->               {{if feather.auth && feather.auth.user}}                 ${feather.auth.user.username}.               {{/if}}             {{/if}}       <input type=\"button\" id=\"blogengine_signin_signoutBtn\" value=\"Sign Out\">   </div> </div>"}.tmpl;
+widget.templates.signedOut = {"id":"signedOut","tmpl":"<div>   <div id=\"blogengine_signin_signinform\" class=\"signinform\">     <label for=\"username\">Username</label>     <input id=\"blogengine_signin_username\" type=\"text\" name=\"username\" size=\"10\"><br>     <label for=\"password\">Password</label>     <input id=\"blogengine_signin_password\" type=\"password\" name=\"password\" size=\"10\"><br>     <input type=\"button\" id=\"blogengine_signin_signinBtn\" value=\"Sign In\">     <p id=\"blogengine_signin_message\"></p>   </div> </div>"}.tmpl;
+widget.fire("ready");
+})();
+ 
+(function() {
+ 
+var widget = new blog.search({
+id: "blogengine_search",
+myid: "search",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.fire("ready");
+})();
+ 
+(function() {
+blog.exportdb.prototype.server_runExport = function(params, callback) {
+feather.socket.send({
+type: "rpc",
+data: {
+widgetName: "blog.exportdb",
+widgetPath: "widgets/exportdb/",
+widgetId: this.id,
+methodName: "runExport",
+params: (typeof params !== "function") ? params : []
+},
+callback: (typeof params === "function") ? params : callback
+});
+};
+ 
+ 
+var widget = new blog.exportdb({
+id: "blogengine_exportdb",
+myid: "exportdb",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.fire("ready");
+})();
+ 
+(function() {
+blog.importdb.prototype.server_runImport = function(params, callback) {
+feather.socket.send({
+type: "rpc",
+data: {
+widgetName: "blog.importdb",
+widgetPath: "widgets/importdb/",
+widgetId: this.id,
+methodName: "runImport",
+params: (typeof params !== "function") ? params : []
+},
+callback: (typeof params === "function") ? params : callback
+});
+};
+ 
+ 
+var widget = new blog.importdb({
+id: "blogengine_importdb",
+myid: "importdb",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.fire("ready");
+})();
+ 
+(function() {
+ 
+var widget = new blog.chat({
+id: "blogengine_chat",
+myid: "chat",
+parent: feather.widget.widgets.findById('blogengine')
+});
+ 
+if (!widget.container) {
+widget.container = widget.get("#Container");
+if (widget.container) widget.containerId = widget.container.attr("id");
+}widget.fire("init");
+ 
+widget.templates = widget.templates || {};
+widget.templates.message = {"id":"message","tmpl":"<div>   <div class=\"message\">     <span class=\"namelabel\">${name} :</span>     <span>${message}</span>   </div> </div>"}.tmpl;
+widget.fire("ready");
+})();
+ 
+widget.fire("ready");
+})();
+ 
+});
+feather.stateMachine.fire('loadingComplete');
+feather.stateMachine.fire('ready');
+</script></body>
+
+</html>

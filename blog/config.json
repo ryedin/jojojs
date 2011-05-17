@@ -23,7 +23,7 @@
         "userIdPrefix": "org.couchdb.user:"
       },
       "logging": {
-        "enabled": true,
+        "enabled": false,
         "defaultLevel": "all",
         "absorbConsoleLogging": true,
         "categories": {
