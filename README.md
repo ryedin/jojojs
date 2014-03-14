@@ -1,4 +1,4 @@
-feather
+NOTE: this was the precursor to feather, which now lives here: https://github.com/theVolary/feather
 ======
 
 ### Overview
